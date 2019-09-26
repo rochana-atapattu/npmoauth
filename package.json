@@ -1,0 +1,29 @@
+{
+  "name": "nodeoauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochana-atapattu/npmoauth.git"
+  },
+  "keywords": [
+    "OAuth",
+    "Nodejs"
+  ],
+  "author": "rochana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochana-atapattu/npmoauth/issues"
+  },
+  "homepage": "https://github.com/rochana-atapattu/npmoauth#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
