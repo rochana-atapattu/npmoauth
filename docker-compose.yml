@@ -1,6 +1,13 @@
 version : '3'
 services :
-  node-app :
+  nginx :
+    restart : always
+    build : Dockerfile.dev
+    context : ./nginx
+    port : 
+      - 80:80
+      - 443:443
+  node :
     build :
       context : .
       dockerfile : Dockerfile.dev
